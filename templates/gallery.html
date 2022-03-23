@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Gallery</title>
+
+</head>
+<body>
+<div class="column">
+    <a href="static/1.jpg"><img src="{{ url_for('static', filename='1.jpg') }}" alt="Cat1" ></a>
+    <a href="static/2.jpg"><img src="{{ url_for('static', filename='2.jpg') }}" alt="Cat2" ></a>
+    <a href="static/3.jpg"><img src="{{ url_for('static', filename='3.jpg') }}" alt="Cat3" ></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Home page</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+ <link rel="shortcut icon"
+      href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+<center><h1> Home Page </h1></center>
+<center>
+<div>
+<a href="{{ url_for('gallery') }}"><button class="btn">Gallery</button></a>
+<a href="{{ url_for('contact') }}"><button class="btn">Contact</button></a>
+<a href="{{ url_for('about') }}"><button class="btn">About</button></a>
+</div>
+</center>
+</body>

@@ -1,0 +1,22 @@
+.column {
+  flex: 50%;
+  padding: 0 4px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column img {
+  border: 4px dotted blue;
+  margin-top: 8px;
+  justify-content: center;
+  width: 1032px;
+}
+
+.column img:hover { transform: scale(1.2);
+
+
+div button{
+    display:inline-block;
+}
